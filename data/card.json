@@ -8,37 +8,37 @@
   },
   {
     "img": "",
-    "name": "",
+    "name": "DesingWeb",
     "shortDesc": "",
     "longDesc": "",
     "url": ""
   },
   {
-    "img": "",
-    "name": "",
-    "shortDesc": "",
+    "img": "./public/Zenin/logo.jpeg",
+    "name": "Zenin",
+    "shortDesc": "Somos una empresa dedicada al desarrollo de páginas web personalizadas y a gusto de nuestro cliente. Actualmente somos un equipo de 4 personas, estudiantes de programación en la E.P.E.T Nº12 y estamos en búsqueda de experiencias laborales para poder tener más profesionalismo en un futuro y poder brindar mejor nuestros servicios",
+    "longDesc": "",
+    "url": "https://franciscofernandezz.github.io/Zenin/"
+  },
+  {
+    "img": "./public/FacturasTechnology/logo.png",
+    "name": "FacturasTechnology",
+    "shortDesc": "Somos cuatro chicos con ganas de aprender y ganar experiencia en el mundo del emprendimiento y el desarrollo web.",
+    "longDesc": "",
+    "url": "https://joubert0.github.io/"
+  },
+  {
+    "img": "./public/WebGenio/logo.png",
+    "name": "Web Genio",
+    "shortDesc": "Somos una empresa de 3 estudiantes de Programación de San Martín de los Andes. Ayudamos a idear tu página web, maquetar tus ideas a partir de imágenes, videos y datos que nos mandes.",
     "longDesc": "",
     "url": ""
   },
   {
-    "img": "",
-    "name": "",
-    "shortDesc": "",
-    "longDesc": "",
-    "url": ""
-  },
-  {
-    "img": "",
-    "name": "",
-    "shortDesc": "",
-    "longDesc": "",
-    "url": ""
-  },
-  {
-    "img": "",
-    "name": "",
-    "shortDesc": "",
-    "longDesc": "",
-    "url": ""
+    "img": "./public/NWG/logo.jpg",
+    "name": "Next Genw3b",
+    "shortDesc": "Somos 3 jóvenes estudiantes de 5to año programación de la escuela secundaria E.P.E.T 12°, Quienes decidimos crear una empresa para empezar a usar todo el conocimiento adquirido a través de estos años, y poder reafirmar cada cosa que hemos visto.",
+    "longDesc": "unos mangos de más nunca vienen mal, y con el plus de poder aplicar todo lo aprendido hasta este momento. Nuestro propósito es facilitar a cada emprendedor la expansión de su negocio a través de páginas web, haciendo que el marketing sea mucho más accesible, la idea es poder tener una relación bien consolidada entre cliente-proveedor, para poder trabajar con muchos más emprendedores en el futuro.",
+    "url": "https://gabygori.github.io/NextGenW3b/"
   }
 ]

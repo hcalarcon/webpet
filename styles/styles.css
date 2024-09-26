@@ -237,6 +237,7 @@ nav a {
   margin: 10px;
   min-width: 250px;
   max-width: 300px;
+  height: 400px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -250,8 +251,7 @@ nav a {
 
 .card img {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
+  height: 170px;
 }
 
 .card .ename {
@@ -259,31 +259,34 @@ nav a {
   font-weight: bold;
   color: #333333;
   text-align: center;
-  margin: 16px 0;
+  margin: 5px 0;
 }
 
 .card .edesc {
   font-size: 0.9em;
   color: #666666;
-  padding: 0 16px;
+  padding: 0 10px;
   text-align: justify;
+  height: 140px;
+  align-content: center;
 }
 
 .card .verMas {
   display: block;
-  margin: 20px auto 10px;
+  margin: 5px auto 10px;
   padding: 10px 20px;
   font-size: 1em;
-  background-color: #4caf50; /* Botón llamativo pero no agresivo */
+  background-color: #f6903d; /* Botón llamativo pero no agresivo */
   color: #ffffff;
-  border: none;
+  width: 45%;
+  text-align: center;
   border-radius: 25px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .card .verMas:hover {
-  background-color: #45a049; /* Cambia el color al hacer hover */
+  background-color: #f68325; /* Cambia el color al hacer hover */
 }
 
 @media (width < 768px) {
