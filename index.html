@@ -15,11 +15,15 @@
         alt="letra w de gran tamaño acompañado con epet"
         class="logo"
       />
-      <h1>Wepet</h1>
+      <h1>Webpet</h1>
 
-      <button class="menu-toggle" aria-label="Abrir menú"></button>
+      <button
+        type="button"
+        class="menu-toggle"
+        aria-label="Abrir menú"
+      ></button>
       <nav>
-        <ul>
+        <ul id="menu">
           <li><a href="#home">Inicio</a></li>
           <li><a href="#nosotros">Nosotros</a></li>
           <li><a href="#proyecto">El proyecto</a></li>
@@ -86,14 +90,91 @@
       </section>
 
       <section id="nosotros" class="nosotros">
-        <h2>Nosotros</h2>
+        <h2>Sobre nosotros</h2>
+        <p>
+          Los alumnos han creado 6 empresas ficticias, estas empresas tiene un
+          nombre, un logo y un cliente asignado:
+        </p>
         <div class="cardContainer"></div>
       </section>
       <section id="contactus" class="contactus">
-        <h2>Contacto</h2>
+        <div>
+          <h2>Contacta con nosotros</h2>
+          <p>
+            Si tienes una idea para una web, nosotros podemos ayudarte a
+            concretarla.
+          </p>
+          <form>
+            <label for="name"
+              >Nombre
+              <input
+                type="text"
+                placeholder="Nombre y Apellido"
+                name="nombre"
+                required
+            /></label>
+
+            <!-- <label for="celular"
+              >Celular
+              <input
+                type="tel"
+                name="celular"
+                id="celu"
+                placeholder="Ej. +54 9 11 1234 5678"
+                pattern="\+[0-9]{2,3} [0-9]{2,3} [0-9]{3,4} [0-9]{4}"
+                required
+            /></label> -->
+
+            <label for="correo"
+              >Correo
+              <input
+                type="email"
+                name="correo"
+                id="correo"
+                placeholder="correo@ejemplo.com"
+                required
+            /></label>
+
+            <label class="fullwidth" for="asunto"
+              >Asunto
+              <input
+                type="text"
+                name="asunto"
+                placeholder="Motivo del contacto"
+                required
+            /></label>
+
+            <label class="fullwidth" for="mensaje"
+              >Dejanos un comentario
+              <textarea
+                name="comentario"
+                id="comentario"
+                placeholder="Escribe tu mensaje aquí..."
+                required
+              ></textarea>
+            </label>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Restablecer</button>
+          </form>
+        </div>
       </section>
     </main>
+    <footer>
+      <section class="redes">
+        <ul>
+          <li><a href="#">Instragram</a></li>
+          <li><a href="#">Correo</a></li>
+          <li><a href="#">Girhub</a></li>
+        </ul>
+      </section>
+      <address>Rudecindo Roca N° 940 - San Martin de los Andes</address>
+    </footer>
   </body>
 
-  <script src="./scripts/app.js"></script>
+  <!-- <script src="./scripts/app.js"></script> -->
+  <script type="module" src="./scripts/menu.js" defer></script>
+  <script src="./scripts/carousel.js" defer></script>
+  <script type="module" src="./scripts/scroll.js" defer></script>
+  <script src="./scripts/card.js" defer></script>
 </html>

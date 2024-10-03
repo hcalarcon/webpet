@@ -1,22 +1,22 @@
 [
   {
-    "img": "./public/springShield/logo.jpeg",
+    "img": "./public/SpringShield/logo.jpeg",
     "name": "SpringShield",
     "shortDesc": "Somos Facundo, Thiago y Noelia, estudiantes de programación con el objetivo de crear páginas web. ¡Hacemos realidad tus ideas digitales!",
     "longDesc": "",
     "url": ""
   },
   {
-    "img": "",
+    "img": "./public/DesingWebs/logo.png",
     "name": "DesingWeb",
-    "shortDesc": "",
+    "shortDesc": "Somos una empresa especializada en la creación de páginas web personalizadas, diseñadas para satisfacer las necesidades específicas de cada cliente. Nos enfocamos en combinar estética, funcionalidad y rendimiento para construir sitios atractivos, rápidos y compatibles con todos los dispositivos",
     "longDesc": "",
-    "url": ""
+    "url": "https://github.com/Gabrielino14/Desing-web"
   },
   {
     "img": "./public/Zenin/logo.jpeg",
     "name": "Zenin",
-    "shortDesc": "Somos una empresa dedicada al desarrollo de páginas web personalizadas y a gusto de nuestro cliente. Actualmente somos un equipo de 4 personas, estudiantes de programación en la E.P.E.T Nº12 y estamos en búsqueda de experiencias laborales para poder tener más profesionalismo en un futuro y poder brindar mejor nuestros servicios",
+    "shortDesc": "Actualmente somos un equipo de 4 personas, estudiantes de programación en la E.P.E.T Nº12 y estamos en búsqueda de experiencias laborales para poder tener más profesionalismo en un futuro y poder brindar mejor nuestros servicios",
     "longDesc": "",
     "url": "https://franciscofernandezz.github.io/Zenin/"
   },

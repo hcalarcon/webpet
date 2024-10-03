@@ -43,11 +43,30 @@ setInterval(() => {
 //menu
 const menuToggle = document.querySelector(".menu-toggle");
 const navMenu = document.querySelector("nav ul");
+const menu = document.querySelector("#menu");
+const menuLinks = document.querySelectorAll("#menu a");
 
-menuToggle.addEventListener("click", () => {
+const togleMenu = () => {
   navMenu.classList.toggle("show");
   menuToggle.classList.toggle("active");
+};
+
+const closeMenuOnClickOutside = (e) => {
+  if (!menu.contains(e.target) && !menuToggle.contains(e.target)) {
+    menu.classList.remove("show");
+  }
+};
+
+menuToggle.addEventListener("click", togleMenu);
+
+menuLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    menu.classList.remove("show");
+  });
 });
+
+// Cerrar el menú al hacer clic fuera de él
+document.addEventListener("click", closeMenuOnClickOutside);
 
 const header = document.querySelector("header");
 

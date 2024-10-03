@@ -5,8 +5,8 @@
   scroll-behavior: smooth;
 }
 
-section {
-  min-height: 100vh;
+h2 {
+  text-align: center;
 }
 
 .headerColor {
@@ -19,10 +19,6 @@ section {
   text-decoration: none;
   color: black;
   box-sizing: border-box;
-}
-
-footer {
-  background-color: rebeccapurple;
 }
 
 header {
@@ -49,14 +45,16 @@ header {
 }
 
 h1 {
+  width: 100%;
   align-content: center;
-  margin-left: 10px;
+  margin-left: 20px;
   font-size: 1.5rem;
   color: white;
 }
 
 nav {
   align-content: center;
+  width: 100%;
 }
 
 nav ul {
@@ -70,6 +68,7 @@ nav a {
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
   font-weight: 600;
+  padding: 2px 8px;
 }
 
 .menu-toggle {
@@ -221,6 +220,13 @@ nav a {
   padding-top: 60px;
   width: 100%;
   height: auto;
+  padding: 5px;
+}
+
+.nosotros p {
+  text-align: justify;
+  font-size: 1.3rem;
+  padding: 3px;
 }
 
 .cardContainer {
@@ -236,8 +242,8 @@ nav a {
   background-color: rgb(255, 255, 255);
   margin: 10px;
   min-width: 250px;
-  max-width: 300px;
-  height: 400px;
+  max-width: 350px;
+  max-height: 500px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -251,7 +257,7 @@ nav a {
 
 .card img {
   width: 100%;
-  height: 170px;
+  height: 200px;
 }
 
 .card .ename {
@@ -267,18 +273,18 @@ nav a {
   color: #666666;
   padding: 0 10px;
   text-align: justify;
-  height: 140px;
+  height: 150px;
   align-content: center;
 }
 
 .card .verMas {
   display: block;
-  margin: 5px auto 10px;
+  margin: 5px auto 15px;
   padding: 10px 20px;
   font-size: 1em;
   background-color: #f6903d; /* Botón llamativo pero no agresivo */
   color: #ffffff;
-  width: 45%;
+  width: 60%;
   text-align: center;
   border-radius: 25px;
   cursor: pointer;
@@ -289,13 +295,118 @@ nav a {
   background-color: #f68325; /* Cambia el color al hacer hover */
 }
 
+/* ContactUs */
+#contactus {
+  min-height: 100vh;
+  background: url(../public/contactusbg.jpeg) center fixed;
+  padding: 10px;
+  padding-top: 60px;
+}
+
+#contactus div {
+  padding: 00px;
+  min-height: 95vh;
+  background: #fffdfd19;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+}
+
+#contactus h2 {
+  font-size: 2.5rem;
+  text-shadow: 2px 0px 5px #eeecece0;
+  font-weight: 900;
+}
+
+#contactus p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  margin: auto;
+  margin-top: 15px;
+  width: 80%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+label {
+  font-size: 1rem;
+  color: #333;
+  align-content: center;
+}
+
+.fullwidth {
+  grid-column: 1 / span 2;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--primaryColor);
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 140, 0, 0.5);
+}
+
+button {
+  padding: 10px 15px;
+  background-color: var(--primaryColor);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f08b0f;
+}
+
+input[type="checkbox"] {
+  display: inline;
+}
+
+/* Fin ContactUs */
+
+/* Footer */
+footer {
+  background-color: rgb(27, 25, 28);
+}
+footer section {
+  height: 50px;
+}
+
+/* Fin Footer */
+
 @media (width < 768px) {
   .menu-toggle {
+    align-self: end;
     margin-left: auto;
     padding-right: 5px;
     display: block;
   }
 
+  nav {
+    width: auto;
+  }
   nav ul {
     display: none; /* Oculta el menú tradicional */
     position: absolute;
@@ -321,5 +432,12 @@ nav a {
 
   .project-images {
     display: none;
+  }
+}
+
+@media (width < 500px) {
+  form {
+    display: flex;
+    flex-direction: column;
   }
 }
