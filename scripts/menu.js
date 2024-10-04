@@ -1,4 +1,3 @@
-// menu.js
 const menuToggle = document.querySelector(".menu-toggle");
 export const navMenu = document.querySelector("nav ul");
 const menu = document.querySelector("#menu");
