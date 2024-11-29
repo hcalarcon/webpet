@@ -1,0 +1,50 @@
+[
+  {
+    "empresa": "Zenin",
+    "cliente": "Cintia Muros Fotografía",
+    "desc": "Desarrollo de una página web para mostrar trabajos fotográficos.",
+    "img": "./public/cintiamuros.png",
+    "comentario": "La experiencia fue excelente. Los chicos fueron super amables y con muy buena predisposición para explicarme y crear la página tal como yo quería - \"Cintia Muros\"",
+    "url": "https://cintiamuros.com"
+  },
+  {
+    "empresa": "SpringShield",
+    "cliente": "Guauu, guardería canina",
+    "desc": "Diseño y desarrollo de una página web para promover los servicios de la guardería canina.",
+    "img": "./public/guauu.png",
+    "comentario": "Excelente trabajo de los alumnos - \"Cristian Alarcón\"",
+    "url": "http://www.guauu.sma.net.ar"
+  },
+  {
+    "empresa": "DesingWeb",
+    "cliente": "Servicios San Martín",
+    "desc": "Página web para una empresa de servicios recién establecida en la ciudad.",
+    "img": "./public/servicios.png",
+    "comentario": "Los chicos lo hicieron muy bien, pero yo no pude acompañar el desarrollo - \"Carolina\"",
+    "url": ""
+  },
+  {
+    "empresa": "Facturas Technology",
+    "cliente": "Hecho Corazón",
+    "desc": "Desarrollo de una página web para la pastelería Hecho Corazón.",
+    "img": "./public/hechocorazon.png",
+    "comentario": "Con respecto a los chicos, fueron super predispuestos. El proyecto fue muy bueno - \"Noelia\"",
+    "url": "https://sma.net.ar/hechoacorazon"
+  },
+  {
+    "empresa": "Web Genio",
+    "cliente": "Club Hualas",
+    "desc": "Creación de una página web para el Club Hualas.",
+    "img": "./public/hualas.png",
+    "comentario": "Se desarrolló un proyecto interesante, aunque hubo inconvenientes de ambas partes - \"Lucías\"",
+    "url": "http://hualas.sma.net.ar/"
+  },
+  {
+    "empresa": "Next GenW3b",
+    "cliente": "Oh Lala",
+    "desc": "Página web para kiosco, ofrece a los clientes la posibilidad de take away.",
+    "img": "./public/ohlala.png",
+    "comentario": "Los chicos estuvieron super predispuestos desde el primer momento, ayudando a conseguir lo que buscaba - \"Yanina\"",
+    "url": "http://kioscohlala.com.ar/"
+  }
+]

@@ -4,28 +4,32 @@
     "name": "SpringShield",
     "shortDesc": "Somos Facundo, Thiago y Noelia, estudiantes de programación con el objetivo de crear páginas web. ¡Hacemos realidad tus ideas digitales!",
     "longDesc": "",
-    "url": ""
+    "url": "https://zacksan-glicht.github.io/proyecto/",
+    "urlCliente": "http://www.guauu.sma.net.ar/"
   },
   {
     "img": "./public/DesingWebs/logo.png",
     "name": "DesingWeb",
-    "shortDesc": "Somos una empresa especializada en la creación de páginas web personalizadas, diseñadas para satisfacer las necesidades específicas de cada cliente. Nos enfocamos en combinar estética, funcionalidad y rendimiento para construir sitios atractivos, rápidos y compatibles con todos los dispositivos",
+    "shortDesc": "Somos una empresa especializada en la creación de páginas web personalizadas. Nos enfocamos en combinar estética, funcionalidad y rendimiento para construir sitios atractivos, rápidos y compatibles con todos los dispositivos",
     "longDesc": "",
-    "url": "https://github.com/Gabrielino14/Desing-web"
+    "url": "https://github.com/Gabrielino14/Desing-web",
+    "urlCliente": "http://kioscohlala.com.ar/?authuser=1"
   },
   {
     "img": "./public/Zenin/logo.jpeg",
     "name": "Zenin",
     "shortDesc": "Actualmente somos un equipo de 4 personas, estudiantes de programación en la E.P.E.T Nº12 y estamos en búsqueda de experiencias laborales para poder tener más profesionalismo en un futuro y poder brindar mejor nuestros servicios",
     "longDesc": "",
-    "url": "https://franciscofernandezz.github.io/Zenin/"
+    "url": "https://franciscofernandezz.github.io/Zenin/",
+    "urlCliente": "https://cintiamuros.com/"
   },
   {
     "img": "./public/FacturasTechnology/logo.png",
     "name": "FacturasTechnology",
     "shortDesc": "Somos cuatro chicos con ganas de aprender y ganar experiencia en el mundo del emprendimiento y el desarrollo web.",
     "longDesc": "",
-    "url": "https://joubert0.github.io/"
+    "url": "https://joubert0.github.io/",
+    "urlCliente": "https://sma.net.ar/hechoacorazon/"
   },
   {
     "img": "./public/WebGenio/logo.png",
